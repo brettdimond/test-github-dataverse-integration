@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Send repository to Dataverse
-        uses: IQSS/dataverse-uploader@v1.3
+        uses: IQSS/dataverse-uploader@v1.1
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://borealisdata.ca/dataverse/ubc
